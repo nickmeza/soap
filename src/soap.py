@@ -13,4 +13,4 @@ print(cliente.service.NumberToDollars(10.55))
 print(cliente.service.NumberToWords(10.00))
 
 cliente = Client(wsdl='https://cvnet.cpd.ua.es/servicioweb/publicos/pub_gestdocente.asmx?wsdl')
-print(cliente.service.wsagrupacionesResponse([]))
+print(cliente.service.wsagrupaciones('C','2011-12','5',''))
