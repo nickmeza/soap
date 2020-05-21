@@ -11,6 +11,6 @@ from zeep import Client
 cliente = Client(wsdl='https://www.dataaccess.com/webservicesserver/NumberConversion.wso?wsdl')
 print(cliente.service.NumberToDollars(10.55))
 print(cliente.service.NumberToWords(10.00))
-
+#si funciona
 cliente = Client(wsdl='https://cvnet.cpd.ua.es/servicioweb/publicos/pub_gestdocente.asmx?wsdl')
-print(cliente.service.wsagrupaciones('C','2011-12','5',''))
+print(cliente.service.wstitulosuni('C','2011-11'))
